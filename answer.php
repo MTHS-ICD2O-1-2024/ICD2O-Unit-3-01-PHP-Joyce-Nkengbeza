@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Area Of Triangle, PHP " />
+  <meta name="description" content="Area Of Trapezod, PHP " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16new.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Area Of Triangle In PHP</title>
+  <title>Area Of Trapezoid In PHP</title>
 </head>
 
 <body>
@@ -38,26 +38,24 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area Of Triangle, PHP</span>
+        <span class="mdl-layout-title">Area Of Trapezoid, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/areaoftriangle.png" alt="Area of Triangle Image" />
+        <img src="./images/trapezoid.svg" alt="Area of Trapezoid Image" />
       </div>
       <div class="page-content-php">
-        <div id="area-triangle">
+        <div id="area-trapezoid">
           <?php
-          $baselength = $_GET["base-length"];
-          $heightlength = $_GET["height-length"];
-          
+          $abase = $_GET["a-base"];
+          $bbase = $_GET["b-base"];
+          $height = $_GET["height-length"];
           // process
-          $area = ($baselength * $heightlength) /2;
+          $area =[($abase + $bbase) / 2] * $height;
+
           // output 
-          echo "If a Triangle has a base length of " . $baselength . " cm and a height of " . $heightlength . " cm:";
-          echo "<br />";
-          echo "<br />";
-          echo "The area of the Triangle is " . $area . " cm².";
+          echo "The area of the Trapezoid is " . $area . " cm².";
           ?>
         </div>
         <div class="page-content-answer">
