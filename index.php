@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit2-04-HTML-MDL -->
+<!-- ICS2O-Unit3-01-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Area Of Triangle, PHP" />
+  <meta name="description" content="Area Of Trapezoid, PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16new.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Area Of Triangle In PHP</title>
+  <title>Area Of Trapezoid In PHP</title>
 </head>
 
 
@@ -39,7 +39,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area Of Triangle, PHP</span>
+        <span class="mdl-layout-title">Area Of Trapezoid, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -49,14 +49,20 @@
       <br />
       <div class="page-content-php">
         <form action="answer.php" method="GET">
-          <p>Base Length</p>
+          <p>A Base</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-length">
-            <label class="mdl-textfield__label" for="base-length">Base Length Here ...</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="a-base">
+            <label class="mdl-textfield__label" for="a-base"> A base length ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
-          <p>Height Length</p>
+          <p>B Base</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base">
+            <label class="mdl-textfield__label" for="b-base">B base Length ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          <p>Height</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-length">
             <label class="mdl-textfield__label" for="height-length">Height Length Here ...</label>
