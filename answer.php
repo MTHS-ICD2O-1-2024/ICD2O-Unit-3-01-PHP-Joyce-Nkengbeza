@@ -55,7 +55,7 @@
           $area =[($abase + $bbase) / 2] * $height;
 
           // output 
-          echo "The area of the Trapezoid is " . $area . " cm².";
+          echo "<p>"The area of the Trapezoid is:". $area . "cm²"</p>";
           ?>
         </div>
         <div class="page-content-answer">
