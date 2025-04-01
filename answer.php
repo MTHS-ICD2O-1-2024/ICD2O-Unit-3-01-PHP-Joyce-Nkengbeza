@@ -52,10 +52,10 @@
           $bbase = $_GET["b-base"];
           $height = $_GET["height-length"];
           // process
-          $area =[($abase + $bbase) / 2] * $height;
+          $area = [($abase + $bbase) / 2] * $height;
 
           // output 
-          echo "<p>"The area of the Trapezoid is:". $area . "cm²"</p>";
+          echo "The area of the Trapezoid is:" . $area . "cm²";
           ?>
         </div>
         <div class="page-content-answer">
