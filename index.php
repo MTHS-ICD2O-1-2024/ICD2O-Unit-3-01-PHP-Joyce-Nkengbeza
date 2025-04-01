@@ -46,6 +46,11 @@
       <div class="right-image">
         <img src="./images/trapezoid.svg" alt="Area of Trapezoid Image" />
       </div>
+      <h3>Formula</h3>
+      <div class="page-content-php">
+        <h2>A = [(a + b) / 2] x h</h2>
+      </div>
+      <div class="page-content-php">Please enter integers for dimensions</div>
       <br />
       <div class="page-content-php">
         <form action="answer.php" method="GET">
